@@ -1,0 +1,6 @@
+Normes de programmation
+
+1 : La Classe pricipale doit contenir les nom de tous ceux qui ont travaillé sur le projet.
+2 : Les lignes de code ne doivent pas dépasser 120 caractère en longueur.
+3 : Lorsque qu'un bloc d'instruction est subordonné à une ligne précédante il doit être précédé d'une tabulation.
+4 : Les accolades doivent être tout de suite après l'instruction, et la dernière doit être à la même hauteur que l'instruction.
