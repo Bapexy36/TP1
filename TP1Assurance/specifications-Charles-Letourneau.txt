@@ -1,0 +1,45 @@
+Spécifications :
+
+------------------------------------------------------------------------------
+
+Gestion des commandes incorrectes :
+
+-Méthode verifierClients()
+	-Permet de vérifier si le client existe.
+	-Vérifie le format du client.
+
+-Méthode verifierPlat()
+	-Vérifier le nom du plat
+	-Vérifier le format du plat
+	-Vérifie  si les prix sont correct
+
+-Méthode verifierCommande()
+	-Vérifie si le format de la commande est correct
+
+-------------------------------------------------------------------------------
+
+Gestion de l'affichage des factures :
+
+- Méthode creerFacture()
+	- Permet de créer une facture à partir du fichier des commandes des clients.
+	- Affiche la facture sur la console et l'écrit dans un fichier texte nommé Facture-du-date-heure.txt
+	- On utilise les méthodes pour la gestion des exceptions pour vérifier si les commandes cont valides.
+	- Les commandes invalides sont affichées en premier avec la raison de l'erreur.
+	- Les commandes de 0$ ne sont pas affichées.
+
+--------------------------------------------------------------------------------
+	
+Amélioration du main :
+
+- Prendre certaines parties du main et les isoler dans des méthodes et classes pour l'alléger.1
+
+---------------------------------------------------------------------------------
+
+Specification Partie 4 :
+
+- Implémenter l'idée de tables dans le programme.  Et changer les méthodes pour que cela fonctionne avec.
+
+- Mettre à jour les tests pour que ça fonctionne avec les tables.
+
+- Faire une fiche de test pour un scénario d'utilisation.
+
